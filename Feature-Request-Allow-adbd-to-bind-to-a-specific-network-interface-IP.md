@@ -1,6 +1,9 @@
-My comment on [**Feature Request: Allow adbd to bind to a specific network interface/IP**](https://issuetracker.google.com/issues/526109803) issue in Android Public Tracker with account cg10250207@gmail.com 沈威宇.
+Issue: [**Feature Request: Allow adbd to bind to a specific network interface/IP**](https://issuetracker.google.com/issues/526109803)
+Account: 沈威宇 cg10250207@gmail.com
 
-<pre><code>I support the proposed "Allowed Network Interfaces" setting under Developer Options > Wireless Debugging, as restricting "adbd" to selected interfaces would significantly reduce the attack surface of future vulnerabilities.
+---
+
+I support the proposed "Allowed Network Interfaces" setting under Developer Options > Wireless Debugging, as restricting "adbd" to selected interfaces would significantly reduce the attack surface of future vulnerabilities.
 
 My main concern is that loopback ("127.0.0.1") ADB should continue to be supported, with an explicit opt-in implementation proposed.
 
@@ -29,5 +32,5 @@ I would also argue that Shizuku and loopback ADB can improve security for advanc
 - They enable one-time application installation through tools such as InstallerX Revived without permanently granting an app the "Install unknown apps" permission.
 - They provide a non-root alternative for many advanced tasks. Removing this option may encourage some users to root their devices instead, which generally carries a much larger security impact than an explicitly enabled loopback-only ADB mode.
 
-For these reasons, I believe configurable interface binding with an explicit loopback-only option offers the best balance between improving ADB's security posture and preserving valuable developer and power-user workflows.</code></pre>
+For these reasons, I believe configurable interface binding with an explicit loopback-only option offers the best balance between improving ADB's security posture and preserving valuable developer and power-user workflows.
 
