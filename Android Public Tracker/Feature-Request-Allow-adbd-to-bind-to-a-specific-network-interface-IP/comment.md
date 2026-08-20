@@ -1,9 +1,3 @@
-Where: [**Feature Request: Allow adbd to bind to a specific network interface/IP**](https://issuetracker.google.com/issues/526109803) on [Android Issue Tracker](https://issuetracker.google.com)
-
-Who: Google account 沈威宇 cg10250207@gmail.com
-
----
-
 I support the proposed "Allowed Network Interfaces" setting under Developer Options > Wireless Debugging, as restricting "adbd" to selected interfaces would significantly reduce the attack surface of future vulnerabilities.
 
 My main concern is that loopback ("127.0.0.1") ADB should continue to be supported, with an explicit opt-in implementation proposed.

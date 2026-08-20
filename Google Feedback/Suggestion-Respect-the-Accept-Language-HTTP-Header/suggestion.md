@@ -1,9 +1,3 @@
-Where: [Google Feedback](https://www.google.com/tools/feedback)
-
-Who: Google account 沈威宇 cg10250207@gmail.com
-
----
-
 ## Suggestion: Respect the "Accept-Language" HTTP Header
 
 ### Expected Behavior
